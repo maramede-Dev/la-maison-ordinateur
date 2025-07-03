@@ -9,25 +9,25 @@ import logo from '../assets/logo.jpg'
 function App() {
   const savedCart = localStorage.getItem('cart')
   const [cart, updateCart] = useState(savedCart ? JSON.parse(savedCart) : [])
-  const [isFooterShown, updateIsFooterShown]= useState(true)
+  const [isFooterShown, updateIsFooterShown] = useState(true)
   useEffect(() => {
-		localStorage.setItem('cart', JSON.stringify(cart))
-	}, [cart])
+    localStorage.setItem('cart', JSON.stringify(cart))
+  }, [cart])
 
   return (
     <div>
       <Banner>
-				<img src={logo} alt='La maison jungle' className='lmo-logo' />
-				<h1 className='lmo-title'>La maison Ordinateur</h1>
-			</Banner>
+        <img src={logo} alt='La maison jungle' className='lmo-logo' />
+        <h1 className='lmo-title'>La maison Ordinateur</h1>
+      </Banner>
       <div className='lmo-layout-inner'>
-         <Cart cart={cart} updateCart={updateCart}/>
+        <Cart cart={cart} updateCart={updateCart} />
         <ShoppingList cart={cart} updateCart={updateCart} />
       </div>
-      <button onClick={()=>updateIsFooterShown(!isFooterShown)}>
+      <button onClick={() => updateIsFooterShown(!isFooterShown)}>
         !Cacher
       </button>
-      {isFooterShown && <Footer cart={cart}/>}
+      {isFooterShown && <Footer cart={cart} />}
     </div>
   );
 }
