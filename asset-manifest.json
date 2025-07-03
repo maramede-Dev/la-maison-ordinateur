@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/la-maison-ordinateur/static/css/main.87094c26.css",
+    "main.js": "/la-maison-ordinateur/static/js/main.aab14f51.js",
+    "static/media/logo.jpg": "/la-maison-ordinateur/static/media/logo.c8f2e2b673e246deef09.jpg",
+    "static/media/sun.svg": "/la-maison-ordinateur/static/media/sun.26fb5ace82c593ca64a695a4d42b0568.svg",
+    "static/media/water.svg": "/la-maison-ordinateur/static/media/water.cceb486fe1f26063bde712aa9fd7ea1e.svg",
+    "index.html": "/la-maison-ordinateur/index.html",
+    "main.87094c26.css.map": "/la-maison-ordinateur/static/css/main.87094c26.css.map",
+    "main.aab14f51.js.map": "/la-maison-ordinateur/static/js/main.aab14f51.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.87094c26.css",
+    "static/js/main.aab14f51.js"
+  ]
+}
