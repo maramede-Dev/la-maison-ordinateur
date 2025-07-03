@@ -1,0 +1,17 @@
+.lmo-banner{
+    color: black;
+    text-align: right;
+    padding: 32px;
+    border-bottom: solid 3px black;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+}
+.lmo-logo{
+    height: 150px;
+    width: 150px;
+}
+.lmo-title{
+    padding-left: 32px;
+}
